@@ -51,13 +51,16 @@ void loop() {
 
     if ( c == l)
     {
-    Serial.println("Das l wurde gedrückt");
+      Serial.println("Das l wurde gedrückt");
     }
+    
     char x = 1;
     Serial.println(strcmp(c, "1")); 
-    if (strcmp (c,"1") == 1){
+    
+    if (strcmp (c,"1") == 1)
+    {
       Serial.println("Das l wurde gedrückt");
-      }
+     }
   
   }
 
