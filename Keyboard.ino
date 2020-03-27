@@ -48,13 +48,13 @@ void loop() {
             // otherwise, just print all normal characters
       Serial.print(c);
     }
-
-    if ( c == l)
+    char x = 1;
+    if ( c == x)
     {
-      Serial.println("Das l wurde gedrückt");
+      Serial.println("Das l wurde gedrückt mit x");
     }
     
-    char x = 1;
+    
     Serial.println(strcmp(c, "1")); 
     
     if (strcmp (c,"1") == 1)
